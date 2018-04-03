@@ -1,0 +1,22 @@
+h1, h2, h3
+{
+    text-align: center;
+}
+
+canvas {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
+.activity {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+#canvas-holder2, #canvas-holder3 {
+    width: 43%;
+}
