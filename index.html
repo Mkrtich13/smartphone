@@ -4,55 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script src="js/Chart.bundle.js"></script>
     <script src="js/utils.js"></script>
-    <script src="js/script.js"></script>
     <title>Chartjs</title>
 </head>
 
-<body class="container">
+<body>
 
-    <div class="d-flex mx-auto align-items-center w-75">
-        <img class="w-100" src="img/banniere.jpg" alt="banniere smartphone">
-    </div>
-    
+    <div class="parallax-window" data-parallax="scroll" data-image-src="img/banniere.jpg"></div>
+
     <h1 class="mt-4">Vendeurs de smartphones au 4e trimestre 2016</h1>
-    <div id="canvas-holder">
+    <div class="mt-4" id="canvas-holder">
         <canvas id="chart-area"></canvas>
     </div>
 
-    <h2 class="mt-5">Temps total par jours, selon les activités sur different supports</h2>
-    <div class="activity">
-        <div id="canvas-holder2">
+        
+    <div data-aos-duration="1300" data-aos="zoom-in-up" class="activity">
+        <h2>Temps total par jours, selon les activités sur different supports</h2>
+        <div class="mt-5" id="canvas-holder2">
             <h3>Android</h3>
             <canvas id="chart-area2"></canvas>
         </div>
-        
-        <div id="canvas-holder3">
+            
+        <div class="mt-5" id="canvas-holder3">
             <h3>Iphone</h3>
             <canvas id="chart-area3"></canvas>
         </div>
     </div>
 
-    <h2 class="mt-5">Smartphones du moment</h2>
-    <div class="d-flex justify-content-between mt-4">
-        <div class="text-center">
-            <h3>Iphone X</h3>
-            <img class="mt-3 w-75" src="img/iphonex.png" alt="iphone x">
-        </div>
-        <div class="text-center">
-            <h3>Galaxy S9</h3>
-            <img class="mt-3 w-75" src="img/s9.png" alt="galaxy s9">
+    <div class="smartphone">
+        <h2>Smartphones du moment</h2>
+        <div class="d-flex justify-content-around mt-4">
+            <div data-aos-duration="2600" data-aos="fade-right" class="text-center">
+                <h3>Iphone X</h3>
+                <img class="mt-3 w-75" src="img/iphonex.png" alt="iphone x">
+            </div>
+            <div data-aos-duration="2600" data-aos="fade-left" class="text-center">
+                <h3>Galaxy S9</h3>
+                <img class="mt-3 w-75" src="img/s9.png" alt="galaxy s9">
+            </div>
         </div>
     </div>
-
-       
     
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/parallax.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+    <script src="js/script.js"></script>
 </body>
 
 </html>

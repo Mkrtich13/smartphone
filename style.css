@@ -9,14 +9,24 @@ canvas {
     -ms-user-select: none;
 }
 
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
 
 .activity {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 5%;
+    margin-top: 9%;
+    background-color: rgba(1, 153, 255, 0.048);
+    padding: 3%;
+}
+
+.smartphone {
+    margin-top: 9%;
 }
 
 #canvas-holder2, #canvas-holder3 {
-    width: 43%;
+    width: 45%;
 }

@@ -143,3 +143,11 @@ window.onload = function() {
     window.myDoughnut = new Chart(ctx3, config3);
 };
 
+AOS.init();
+
+$(document).ready(function () {
+
+    $('.parallax-window').parallax({imageSrc: 'img/banniere.jpg'});
+
+});
+
