@@ -18,13 +18,13 @@ canvas {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 9%;
+    margin-top: 6%;
     background-color: rgba(1, 153, 255, 0.048);
     padding: 3%;
 }
 
 .smartphone {
-    margin-top: 9%;
+    margin-top: 6%;
 }
 
 .smartphone > div {
