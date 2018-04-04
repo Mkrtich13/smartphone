@@ -76,7 +76,6 @@ var config2 = {
         },
         title: {
             display: true,
-            text: 'Chart.js Doughnut Chart'
         },
         animation: {
             animateScale: true,
@@ -124,7 +123,6 @@ var config3 = {
         },
         title: {
             display: true,
-            text: 'Chart.js Doughnut Chart'
         },
         animation: {
             animateScale: true,
